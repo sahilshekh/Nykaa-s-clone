@@ -1,0 +1,1156 @@
+  /* <!-- =====================================================================================menu bar========================================================= -->
+    <!-- =====================================================================================menu bar========================================================= -->
+    <!-- =====================================================================================menu bar========================================================= -->
+    <!-- =====================================================================================menu bar========================================================= -->
+    <!-- =====================================================================================menu bar========================================================= --> */
+    #marq{
+        background-color: #001325;
+        display: flex;
+        max-width: 100%;
+        height: 30px;
+        justify-content: right;
+    }
+    #mar{
+        height: 24px;
+        width: 53%;
+        font-family: sans-serif;
+        font-size: 14px;
+        color: white;
+        margin-right: 180px;
+    }
+    .icon{
+        font-family: sans-serif;
+        background-color: #001325;
+        color: white;
+        cursor:pointer;
+        border: transparent;
+    }
+    .fas{
+        margin-right: 10px;
+    }
+    #help{
+        background-color: #001325;
+        color: white;
+        border: transparent;
+        cursor: pointer;
+        margin:0px 30px;
+        margin-right: 40px;
+    }
+    .far{
+        margin-right: 10px;
+    }
+    #menu{
+        height: 64px;
+        display: flex;
+        font-family: sans-serif;
+        align-items: center;
+    }
+    #menubar{
+        font-size: 14px;;
+        display: flex;
+        align-content: center;
+        width: 30%;
+        justify-content: space-around;
+        align-items: center;
+        margin-right: 10%;
+
+    }
+    #menubar>div{
+        padding:20px 10px;
+    }
+    #menubar>div:hover{
+        cursor: pointer;
+    }
+    #menubar>div:nth-child(1):hover{
+        color: black;
+        background-color: #EEEEEE;
+    }
+    #menubar>div:nth-child(1){
+        padding: 20px;
+    }
+    #NykaLogo{
+        width: 100px;
+        height: 56px;
+        margin:0px 40px;
+    }
+    #newbar{
+        display: flex;
+        align-items: center;
+    }
+    #newbar>button{
+        border: transparent;
+        font-size: 14px;
+        padding: 8px 16px;
+        cursor: pointer;
+    }
+    .allign{
+        width: 357px;
+        height: 40px;
+        background-color: #F6F7F9;
+        border-bottom:1px solid rgba(128, 128, 128, 0.377);
+    }
+    .align{
+        display: flex;
+        width: 357px;
+        height: 36px;
+
+        border-bottom:2px solid gray;
+    }
+    .align:hover{
+        border-bottom: 2px solid#FD7685;;
+    }
+    #search{
+        color: rgba(59, 58, 58, 0.507);
+        padding: 13px 0px 13px 10px;
+    }
+    #sear{
+        height: 30px;
+        width: 317px;
+        outline: none;
+        background-color: #F6F7F9;
+        border: none;
+    }
+    #accountBar{
+        display: flex;
+        width: 20%;
+        justify-content: space-around;
+        margin-left: 20px;
+    }
+    #accountBar>div{
+        display: flex;
+
+    }
+    #accountBar>div:hover{
+        cursor: pointer;
+    }
+    /* model box */
+    /* --------------------------------------------------------Women------------------------------------------------------ */
+    /* -----------------------------------------------------Whst's New----------------------------------------------------- */
+
+    body {font-family: Arial, Helvetica, sans-serif;}
+
+/* The Modal (background) */
+.modal {
+display: none;
+position: fixed;
+z-index: 1;
+padding-top: 100px;
+left: 0;
+top: 0;
+width: 100%; 
+height: 100%;
+overflow: auto;
+}
+
+/* Modal Content */
+.modal-content {
+background-color: #fefefe;
+padding: 20px;
+box-shadow: 0px 0px 1px 1px rgba(128, 128, 128, 0.055);
+margin:41px 0px 0px 40px;
+width: 917px;
+height: 366px;
+display: flex;
+}
+/* .close:hover,
+.close:focus {
+color: #000;
+text-decoration: none;
+cursor: pointer;
+} */
+#myBtn{
+margin-left: 70px;
+}
+#just>img{
+height: 135px;
+width: 103px;
+margin-top: 30px;
+cursor: pointer;
+}
+#JustIn{
+display: grid;
+}
+#just{
+display: grid;
+grid-template-rows: repeat(2, 1fr);
+align-content:space-around;
+}
+#newBrand img{
+height: 90px;
+width: 131px;
+cursor: pointer;
+}
+#newBrand{
+margin: 20px;
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-gap: 20px;
+}
+#par{
+margin: 0px 20px;
+}
+#trend img{
+height:90px;
+cursor: pointer;
+}
+#trend{
+margin: 20px;
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-gap: 10px;
+font-size: 9px;
+color: black;
+text-align: center;
+}
+#newbar{
+margin-left: 40px;;
+}
+#newbar>button{
+border: transparent;
+background-color: white;
+padding: 10px;
+margin-right: 5px;
+}
+#newbar>button:hover{
+background-color: rgba(128, 128, 128, 0.164);
+}
+
+
+/*------------------------------------------============================ more============================== ---------------------------------------------  */
+
+.more{
+display: none;
+position: fixed;
+z-index: 1;
+padding-top: 100px;
+left: 0;
+top: 0;
+width: 100%;
+height: 100%;
+overflow: auto;
+}
+.more-content{
+display: flex;
+background-color: #fefefe;
+box-shadow: 0px 0px 1px 1px rgba(128, 128, 128, 0.055);
+width:764px;
+height: 250px;
+margin-left: 30%;
+}
+.more-content img{
+height: 214px;
+width: 160px;
+margin: 15px;
+cursor: pointer;
+}
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++acount+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+.acount{
+display: none;
+position: fixed;
+z-index: 1;
+padding-top: 100px;
+left: 0;
+top: 0;
+width: 100%;
+height: 100%;
+overflow: auto;
+}
+.triangleup {
+width: 0;
+height: 0;
+border-left: 25px solid transparent;
+border-right: 25px solid transparent;
+border-bottom: 25px solid #f3ecec;
+margin-left: 79%;
+margin-top: -15px;
+}
+#acountContent{
+background-color: #f3ecec;
+box-shadow: 0px 0px 1px 1px rgba(128, 128, 128, 0.219);
+height: 226px;
+width: 172px;
+padding: 20px;
+margin-left: 70%;
+}
+#Descr{
+width: 172px;
+font-size: 12px;
+}
+#loginSign{
+font-size: 14px;
+color: #FD7685;
+margin: 15px 0px;
+cursor: pointer;
+}
+#order, #payment{
+display: flex;
+font-size: 14px;
+padding: 20px;
+border-top:1px solid rgba(128, 128, 128, 0.363);
+justify-content: space-between;
+cursor: pointer;
+}
+/*  ====================================================================acount sign ===============================================================================*/
+#acountSignContent{
+background-color: #f3ecec;
+box-shadow: 0px 0px 1px 1px rgba(128, 128, 128, 0.219);
+height: 170px;
+width: 212px;
+padding: 20px;
+margin-left: 70%;
+font-family: Arial, Helvetica, sans-serif;
+}
+#hiUser{
+font-size: 24px;
+text-align: center;
+margin-bottom: 10px;
+}
+#userValue{
+font: 12px;
+margin: 10px;
+}
+#order{
+font-size: 14px;
+/* height: 58px;
+width: 172px; */
+}
+#logOut>button{
+height: 34px;
+width: 172px;
+margin-left: 20px;
+}
+/* ===================================================================login/Signup================================================================================== */
+.loginOrSignup{
+display: none;
+position: fixed;
+z-index: 1;
+padding-top: 100px;
+left: 0;
+top: 0;
+width: 100%;
+height: 100%;
+overflow: auto;
+background-color: rgb(0,0,0);
+background-color: rgba(0,0,0,0.4);
+}
+#loginContent{
+width: 648px;
+margin:5% 30%;
+background-color: white;
+}
+#cross{
+padding: 30px;
+color: rgba(128, 128, 128, 0.377);
+cursor: pointer;
+}
+#log{
+margin-left: 20px;
+font-size: 24px;
+font-weight: 700;
+}
+#loginArea{
+display: flex;
+width: 598px;
+height: 184px;
+padding: 20px;
+justify-content: space-between;
+}
+#signupArea{
+width: 257px;
+height: 216px;
+}
+#signupDes{
+height: 48px;
+font-size: 16px;
+margin: 5px 0px;
+}
+#signMo>button{
+height: 48px;
+width: 257px;
+font-size: 14px;
+color: white;
+background-color: black;
+border:transparent;
+}
+#signMo>button:hover{
+background-color: #9B9b9B;
+cursor: pointer;
+}
+#signTerm{
+height: 32px;
+font-size: 12px;
+margin: 15px 0px;
+}
+#close{
+display: flex;
+justify-content: space-between;
+}
+#hrAr{
+height: 216px;
+width: 30px;
+margin:0px 40px;
+}
+#hr{
+width: 1px;
+height: 70px;
+background-color: rgba(128, 128, 128, 0.459);
+margin-left: 10px;
+}
+#Or{
+margin: 10px 0px;
+font-weight: bold;
+color: rgba(128, 128, 128, 0.459);;
+}
+#logIn{
+height: 216px;
+}
+#logInDes{
+height: 48px;
+font-size: 16px;
+margin: 5px 0px;
+}
+#logIn button{
+height: 48px;
+width: 257px;
+font-size: 14px;
+color: black;
+background-color: white;
+border:1px solid rgba(128, 128, 128, 0.527);
+margin-bottom: 5px;
+
+}
+#logIn button:hover{
+background-color: #9B9b9B;
+cursor: pointer;
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Signup Page~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~` */
+body{
+        font-family: sans-serif;
+    }
+    .logUp{
+display: none;
+position: fixed;
+z-index: 1;
+padding-top: 100px;
+left: 0;
+top: 0;
+width: 100%;
+height: 100%;
+overflow: auto;
+background-color: rgb(0,0,0);
+background-color: rgba(0,0,0,0.4);
+}
+#logUpContent{
+width: 648px;
+height: 370px;
+margin:5% 30%;
+background-color: white;
+}
+#back{
+padding: 30px;
+color: rgba(128, 128, 128, 0.377);
+cursor: pointer;
+}
+#backed{
+display: flex;
+justify-content: space-between;
+}
+#Flex{
+display: flex;
+}
+#Flex>div{
+width:300px;
+margin: 10px 30px;
+}
+.us1{
+height: 57px;
+width: 260px;
+margin-bottom: 10px;
+background-color: rgba(128, 128, 128, 0.247);
+color: gray;
+cursor: pointer;
+}
+.us1:hover{
+border-bottom: 1px solid rgb(247, 12, 208) ;
+}
+.us2{
+font-size: 12px;
+color: gray;
+padding: 10px 0px 0px 10px;
+cursor: pointer;
+}
+.us3>input{
+height: 24px;
+width: 200px;
+border: transparent;
+background-color: transparent;
+cursor: pointer;
+}
+.us3{
+margin-left: 10px;
+cursor: pointer;
+}
+.us3>input:focus{
+outline:none;
+cursor:text;
+} 
+#signUp>button{
+height: 50px;
+width: 260px;
+margin-left: 200px;
+font-size: 30px;
+font-weight: bold;
+color: white;
+background-color: rgb(201, 91, 168);
+border: transparent;
+}
+#signUp>button:hover{
+background-color: rgb(228, 30, 168);
+cursor: pointer;
+}
+#gbsignIn{
+text-align: center;
+margin: 10px;
+cursor: pointer;
+color: gray;
+}
+#gbsignIn:hover{
+color: black;
+}
+
+
+/* ==================================================================sign in page================================================================================= */
+
+body{
+        font-family: sans-serif;
+    }
+    .Signin{
+display: none;
+position: fixed;
+z-index: 1;
+padding-top: 100px;
+left: 0;
+top: 0;
+width: 100%;
+height: 100%;
+overflow: auto;
+background-color: rgb(0,0,0);
+background-color: rgba(0,0,0,0.4);
+}
+#SigninContent{
+width: 648px;
+height: 390px;
+margin:5% 30%;
+background-color: white;
+}
+#Crosser{
+padding: 30px;
+color: rgba(128, 128, 128, 0.377);
+cursor: pointer;
+}
+#Closer{
+display: flex;
+justify-content: space-between;
+}
+#log{
+font-size: 40px;
+text-align: center;
+}
+#techno{
+display: flex;
+}
+#email{
+margin: 0px 100px 0px 20px;
+}
+.us4{
+height: 57px;
+width: 260px;
+margin-bottom: 10px;
+background-color: rgba(128, 128, 128, 0.247);
+color: gray;
+cursor: pointer;
+}
+.us4:hover{
+border-bottom: 1px solid rgb(247, 12, 208) ;
+}
+.us5{
+font-size: 12px;
+color: gray;
+padding: 10px 0px 0px 10px;
+cursor: pointer;
+}
+.us6>input{
+height: 24px;
+width: 200px;
+border: transparent;
+background-color: transparent;
+cursor: pointer;
+}
+.us6{
+margin-left: 10px;
+cursor: pointer;
+}
+.us6>input:focus{
+outline:none;
+cursor:text;
+} 
+#signInn>button{
+height: 50px;
+width: 260px;
+margin-left: 200px;
+font-size: 30px;
+font-weight: bold;
+color: white;
+background-color: rgb(201, 91, 168);
+border: transparent;
+}
+#signInn>button:hover{
+background-color: rgb(228, 30, 168);
+cursor: pointer;
+}
+#paragraph{
+color: red;
+margin:10px;
+text-align: center;
+}
+/* ===============================================================================cart============================================================================== */
+.Cart{
+display: none;
+position: fixed;
+z-index: 1;
+padding-top: 100px;
+left: 0;
+top: 0;
+width: 100%;
+height: 100%;
+overflow: auto;
+background-color: rgb(0,0,0);
+background-color: rgba(0,0,0,0.4);
+}
+#cartContent{
+width:25%;
+height: 800px;
+background-color: white;
+margin-left:75%;
+margin-top: -100px;
+}   
+#Bag{
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0px 20px;
+}
+#empty>img{
+    width: 300px;
+    margin: 50px;
+}
+#emptyWar{
+    font-size: 35px;
+    text-align: center;
+}
+#larr{
+    padding:20px;
+    cursor: pointer;
+}
+#emptyDes{
+    text-align: center;
+    color: gray;
+    margin: 20px;
+    font-size: 12px;
+}
+#bts button{
+    height: 40px;
+    width: 280px;
+    margin: 20px 60px;
+    background-color: #142636;
+    color: white;
+    border: transparent;
+    border-radius: 2px;
+}
+#bts button:hover{
+    cursor: pointer;
+}
+#out{
+        height:24px;
+        width: 24px;
+        border-radius: 14px;
+        border: 2px solid gray;
+        color: gray;
+    }
+    .product{
+        margin: 4px 0px 0px 4px;
+    }
+    #cartimg img{
+        width: 96px;
+        height: 128px;
+        border-radius: 2px;
+    }
+    #cart1{
+        display: flex;
+    }
+    #cartimg{
+        margin: 20px;
+    }
+    #cartProd{
+        width: 200px;
+    }
+    #cart2{
+        width: 150px;
+        display: flex;
+        justify-content: space-between;
+        font-size: 13px;
+        margin: 5px 0px;
+        color: gray;
+    }
+    #prodName{
+        font-size: 15px;
+        color: black;
+        margin-top: 30px;
+    }
+    #prodQty{
+        font-size: 13px;
+        color: gray;
+    }
+    #prodPrice{
+        margin:5px 0px;
+    }
+    #delhi{
+        color: gray;
+        margin-top: 5px;
+        font-size: 13px;
+    }
+    #summa{
+        margin:10px 20px 2px;
+        font-size: 25px;
+    }
+    #taxes{
+        margin: 0px 20px;
+        font-size: 14px;
+        color: gray;
+    }
+    #boxprice{
+        margin: 10px 40px;
+        width: 300px;
+        color: gray;
+        font-size: 14px;
+}
+    .flex{
+        display: flex;
+        /* justify-content: space-between; */
+    }
+    .flex>div{
+        margin: 5px 0px;
+        
+    }
+    .prodprice3{
+        border-top: 1px dashed gray;    
+        font-size: 18px;
+        color: black;
+    }
+    .prodbox{
+        width: 90%;
+        margin: auto;
+        font-size: 14px;
+        background-color: rgba(104, 104, 104, 0.096);
+    }
+    .spbet{
+        justify-content: space-between;
+    }
+/* <!-- =====================================================================================menu bar end========================================================= -->
+<!-- =====================================================================================menu bar end========================================================= -->
+<!-- =====================================================================================menu bar end========================================================= -->
+<!-- =====================================================================================menu bar end========================================================= -->
+<!-- =====================================================================================menu bar end========================================================= --> */
+
+    /* <!-- =====================================================================body part====================================================================== -->
+<!-- =====================================================================body part====================================================================== -->
+<!-- =====================================================================body part====================================================================== -->
+<!-- =====================================================================body part====================================================================== -->
+<!-- =====================================================================body part====================================================================== --> */
+    /* =======================================================================home Sector ==================================================================*/
+    body{
+         font-family: sans-serif;
+     }
+     #home1{
+         width: 100%;
+     }
+     .flex{
+         display: flex;
+     }
+     .marginauto{
+         margin:auto;
+     }
+     .homehr{
+         width: 1140px;
+         margin-top: 20px;
+     }
+     .hr1{
+         background-color:black;
+         height: 1px;
+         width: 50px;
+         margin-top: 35px;
+     }
+     .hr2{
+         background-color:black;
+         height: 1px;
+         width: 600px;
+         margin-top: 35px;
+     }
+     .hr3{
+         background-color:black;
+         height: 1px;
+         width: 200px;
+         margin-top: 35px;
+     }
+     #homep1{
+         margin: 14px 20px;
+         font-size: 24px;
+         font-weight: bold;
+     }
+     #homep2{
+         margin:5px 20px;
+         font-size: 14px;
+     }
+     .filter{
+         margin:8px 12px;
+     }
+     #sortby{
+         font-weight: bold;
+     }
+     .homeArea{
+        width: 1200px;
+        height: 1240px;
+     }
+     .homeLeft{
+         width: 255px;
+         /* border: 1px solid black; */
+     }
+     #Fil{
+         font-size: 18px;
+         font-weight: 700;
+         margin:20px 0px;
+     }
+     #Gender{
+         height: 208px;
+         width: 255px;
+         border: 1px solid #CCCCCC;
+     }
+     #Gender>Div>div{
+         cursor: Pointer;
+     }
+    input[type=radio]{
+       width: 300%;
+       height: 2em;
+       background-color: silver;
+    }
+    .sixteen{
+        font-size: 16px;
+    }
+    .forteen{
+        font-size: 14px;
+    }
+    .thirteen{
+        font-size: 13px;
+    }
+    .width215{
+        width:215px;
+    }
+    .height40{
+        height: 40px;
+
+    }
+    .width191{
+        width:191px;
+    }
+    .margin10{
+        margin: 10px;
+    }
+    .padding10{
+        padding:10px 0px;
+    }
+    .bold{
+        font-weight: bold;
+    }
+    #sphere{
+        height: 24px;
+        width:24px;
+        border-radius: 13px;
+        border:1px solid #949090;
+        background-color: #CCCCCC;
+    }
+    #sphere>div{
+        height: 20px;
+        width: 20px;
+        border-radius: 11px;
+
+        margin: 2px;
+    }
+    #sphere>div:hover{
+        background-color: black;
+    }
+    #Category{
+        height: 248px;
+         width: 255px;
+         border: 1px solid #CCCCCC;
+         margin-top: 10px;
+    }
+    #Category>div>div{
+        cursor: pointer;
+    }
+    #Brand{
+        height: 248px;
+         width: 255px;
+         border: 1px solid #CCCCCC;
+         margin-top: 10px; 
+    }
+    #Brand>div>div{
+        cursor: pointer;
+    }
+    #Price{
+        height: 120px;
+         width: 255px;
+         border: 1px solid #CCCCCC;
+         margin-top: 10px; 
+    }
+    #Price>div>div{
+        cursor: pointer;
+    }
+    #Price input{
+        width: 66px;
+        height: 35px;
+        margin: 20px 5px 0px;
+    }
+    #Price button{
+        width: 66px;
+        height: 40px;
+        margin: 20px 0px 0px;
+    }
+    #blank{
+        height: 2px;
+        width: 10px;
+        background-color: gray;
+        margin-top: 38px;
+    }
+    #size{
+        height: 248px;
+         width: 255px;
+         border: 1px solid #CCCCCC;
+         margin-top: 10px; 
+    }
+    #size>div>div{
+        cursor: pointer;
+    }
+    #color{
+        height: 248px;
+         width: 255px;
+         border: 1px solid #CCCCCC;
+         margin-top: 10px; 
+    }
+    #color>div>div{
+        cursor: pointer;
+    }
+    #age{
+        height: 248px;
+         width: 255px;
+         border: 1px solid #CCCCCC;
+         margin-top: 10px; 
+    }
+    #age>div>div{
+        cursor: pointer;
+    }
+    .homeRight{
+        padding-left: 90px;
+        width:855px;
+        height: 1230px;
+        margin-left: 90px;
+        /* border: 1px solid black; */
+        overflow:scroll;
+        display: grid;
+        grid-template-columns: repeat(3, 275px);
+        grid-gap: 13px;
+    }
+    ::-webkit-scrollbar{
+        display: none;
+    }
+    .homeRight img{
+        width:100%;
+    }
+    .homeRight>div:hover{
+        box-shadow: 0px 0px 3px 3px rgba(128, 128, 128, 0.397);
+        cursor: pointer;
+    }
+    .homeRight>div{
+        height: 457px;
+        width: 275px;
+    }
+    .homeRight>div>div:nth-child(2){
+        font-size: 14px;
+        margin: 5px;
+        font-weight: 600;
+    }
+    .homeRight>div>div:nth-child(3){
+        font-size: 12px;
+        color: gray;
+        margin: 5px;
+    }
+    .homeRight>div>div:nth-child(4){
+        font-size: 12px;
+        margin: 5px;
+    }
+    #longline{
+        width: 100%;
+        height:1px;
+        background-color: rgba(128, 128, 128, 0.295);
+        margin-bottom: 10px;
+    }
+    .hover{
+        cursor: pointer;
+    }
+    .homeRight button{
+        height: 30px;
+        width: 275px;
+        color: white;
+        background-color: black;
+        border: transparent;
+        border-radius: 2px;
+    }
+    .homeRight button:hover{
+        background-color: #9b9b9b;
+        cursor: pointer;
+    }
+    /* <!-- =====================================================================body part end====================================================================== -->
+<!-- =====================================================================body part end====================================================================== -->
+<!-- =====================================================================body part end====================================================================== -->
+<!-- =====================================================================body part end====================================================================== -->
+<!-- =====================================================================body part end====================================================================== --> */
+
+      /* <!-- ========================================================================================foot part=================================================== -->
+<!-- ========================================================================================foot part=================================================== -->
+<!-- ========================================================================================foot part=================================================== -->
+<!-- ========================================================================================foot part=================================================== -->
+<!-- ========================================================================================foot part=================================================== -->
+ */
+ .box1{
+          
+          height: 120px;
+          width: 100%;
+          display: flex;
+          background-color: #000000b6;
+      }
+      .subboxi1{
+       
+          height: 100%;
+          width: 350px;
+          margin-left: 40px;
+      }
+      h3{
+          size: 100px;
+          color: white;
+
+      }
+      h4{
+          color: white;
+      }
+      .underbox1{
+         
+          height: 50%;
+          width: 100%;
+          margin-right: 40px;
+          display: flex;
+         
+      }
+      #img5{
+        width: 24px;
+        height: 24px;
+          cursor: pointer;
+          margin-right: 20px;
+      }
+      .subboxi2{
+          
+          height: 100%;
+          width: 350px;
+          margin-left: 100px;
+      }
+      .input{
+          padding: 7px;
+          color: white;
+          background-color: #00000031;
+      }
+      #button5{
+          padding: 7px;
+          cursor: pointer;
+          color: white;
+          background-color: #00000031;
+      }
+      .subboxi3{
+        
+          height: 100%;
+          width: 350px;
+          margin-left:100px;
+          
+      }
+      #back1{
+          background-color: #F3F2F2;
+      }
+      .box2{
+          display: flex;
+          width: 1200px;
+          height: 200px;
+          margin: auto;
+          background-color: #F3F2F2;
+          justify-content: space-around;
+      }
+      .box251{
+          display: flex;
+      }
+      .box2>div>div{
+          font-size: 14px;
+          margin: 20px 0px;
+      }
+      .box2>div>div:nth-child(1){
+         height: 20px;
+         font-size: 14px;
+         margin: 30px 0px;
+         font-weight: bold;
+      }
+      .box3{
+          display: flex;
+          background-color: #FFFFFF;
+          height: 307px;
+          width: 1200px;
+          margin: auto;
+          justify-content: space-between;
+      }
+      .box3>div>div{
+          color: gray;
+          font-size: 12px;
+          padding: 5px;
+          cursor: pointer;
+      }
+      .box3>div>h5{
+          font-size: 10px;
+          color: gray;
+          cursor: pointer;
+          margin-left: 5px;
+      } 
+      .box4{
+       
+          height: 45px;
+          background-color: rgb(253,118,133);
+      }
+      .red{
+        font-size: 12px;
+          text-align: center;
+          color: white;
+          padding: 13px;
+      }
+      .back{
+        background-color: #FFFFFF
+      }#im6{
+          height: 33px;
+          width: 112px;
+      }
+      /* <!-- ========================================================================================foot part end=================================================== -->
+<!-- ========================================================================================foot part end=================================================== -->
+<!-- ========================================================================================foot part end=================================================== -->
+<!-- ========================================================================================foot part end=================================================== -->
+<!-- ========================================================================================foot part end=================================================== --> */

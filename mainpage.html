@@ -1,0 +1,1358 @@
+<!--Navneet Start-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/60c93948be.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="png" sizes="512x512" href="https://images-static.nykaa.com/nykdesignstudio-images/pub/media/app-icon-nykaa-fashion-web-512x512.png">
+    <title> Designer Nykaa Fashion</title>
+<link rel="stylesheet" href="mainpage.css">
+</head>
+<body>
+    <!-- =====================================================================================menu bar========================================================= -->
+    <!-- =====================================================================================menu bar========================================================= -->
+    <!-- =====================================================================================menu bar========================================================= -->
+    <!-- =====================================================================================menu bar========================================================= -->
+    <!-- =====================================================================================menu bar========================================================= -->
+       <div id="marq">
+        <div id="mar"><marquee direction="left" scrollamount="3">Download the Nykaa Fashion and get extra 300off. Use code:NFAPP300</marquee></div>
+        <button class="icon"><i id="ico" class="fas fa-mobile-alt"></i>App Download</button>
+        <button id="help"><i class="far fa-question-circle"></i>Help</button>
+    </div>
+    <div id="menu">
+        <div><img id="NykaLogo" src="https://support.nykaafashion.com/hc/en-us/img/Nykaa%20Fashion%20Logo.PNG" alt=""></div>
+        <div id="menubar">
+            <div onclick="jumpToAll()" >All Brands</div>
+            <div id="newbar1" onclick="jumpToWomen()" onmouseover="newBar1()">Women</div>
+            <div id="newbar2" onclick="jumpToMen()" onmouseover="newBar2()">Men</div>
+            <div id="newbar3" onclick="jumpToKid()" onmouseover="newBar3()">Kids</div>
+            <div id="newbar4" onclick="jumpToHome()" onmouseover="newBar4()">Home</div>
+            <div id="newbar5" onclick="jumpToTech()" onmouseover="newBar5()">Tech</div>
+            <div id="newbar6" onmouseover="newBar6()">More</div>
+        </div>
+        <div class="allign">
+            <div class="align"><i id="search" class="fas fa-search"></i> <div>
+            <div ><input id="sear"type="text" placeholder="Search for products, styles, brands"></div>
+
+        </div></div></div>
+        <div id="accountBar">
+            <div id="Account" onclick="acFunction()"><i class="far fa-user"></i>
+                <div>Account</div></div>
+            <div id="wishList" onclick="wishFun()"><i class="far fa-heart"></i>
+            <div>Wishlist</div></div>
+            <div onclick="openCart()"><i class="fas fa-shopping-bag"></i> <div>
+            </div>Cart</div>
+        </div>
+    </div>
+    <div id="newbar"></div>
+
+    <!--==========================================================================================Women=======================================================-->
+    <!--========================================================================= 1.Whats new===================================================================-->
+<div id="myModal" class="modal">
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close"></span>
+    <div id="JustIn">
+    <div>Just In</div>
+     <div id="just">
+        <img src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/wysiwyg/mm_images/women/whats_new/just_in/recently.jpg" alt="">
+        <img src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/wysiwyg/mm_images/women/whats_new/just_in/westernwear.jpg" alt="">
+     </div>
+    </div>
+    <div>
+        <div id="par">New Brands</div>
+        <div id="newBrand">
+            <div><img src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/wysiwyg/mm_images/women/whats_new/new_brands/Fabindia.jpg" alt=""></div>
+            <div><img src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/wysiwyg/mm_images/women/whats_new/new_brands/Rare.jpg" alt=""></div>
+            <div><img src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/wysiwyg/mm_images/women/whats_new/new_brands/Mulmul_1.jpg" alt=""></div>
+            <div><img src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/wysiwyg/mm_images/women/whats_new/new_brands/Ardozaa.jpg" alt=""></div>
+            <div><img src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/wysiwyg/mm_images/women/whats_new/new_brands/MitaliJain.jpg" alt=""></div>
+            <div><img src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/wysiwyg/mm_images/women/whats_new/new_brands/Piroh.jpg" alt=""></div>
+        </div>
+    </div>
+    <div>
+        <div id="par">New Styles from</div>
+        <div id="newBrand">
+            <div><img src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/wysiwyg/mm_images/women/whats_new/new_styles_from/ForeverNew.jpg" alt=""></div>
+            <div><img src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/wysiwyg/mm_images/women/whats_new/new_styles_from/Fashor.jpg" alt=""></div>
+            <div><img src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/wysiwyg/mm_images/women/whats_new/new_styles_from/TheLabelLife.jpg" alt=""></div>
+            <div><img src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/wysiwyg/mm_images/women/whats_new/new_styles_from/Accessorize.jpg" alt=""></div>
+            <div><img src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/wysiwyg/mm_images/women/whats_new/new_styles_from/Rsvp.jpg" alt=""></div>
+            <div><img src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/wysiwyg/mm_images/women/whats_new/new_styles_from/Soch.jpg" alt=""></div>
+        </div>
+    </div>
+    <div>
+        <div id="par">New Trends</div>
+        <div id="trend">
+            <div><img src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/wysiwyg/mm_images/women/whats_new/new_trends/Turtlenecks.jpg" alt="">
+            <div>Tutleneck</div></div>
+            <div><img src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/wysiwyg/mm_images/women/whats_new/new_trends/WeddingSelects.jpg" alt="">
+            <div>Wedding Selects</div></div>
+            <div><img src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/wysiwyg/mm_images/women/whats_new/new_trends/SheenSatin.jpg" alt="">
+            <div>Sheen Satin</div></div>
+            <div><img src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/wysiwyg/mm_images/women/whats_new/new_trends/QuiltedBags.jpg" alt="">
+            <div>Quilted Bags</div></div>
+            <div><img src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/wysiwyg/mm_images/women/whats_new/new_trends/MileHigh.jpg" alt="">
+            <div>Mile High</div></div>
+            <div><img src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/wysiwyg/mm_images/women/whats_new/new_trends/HeritageKundan.jpg" alt="">
+            <div>Heritage Kundan</div></div>
+        </div>
+    </div>
+  </div>
+</div>
+<!-- ======================================================mens What's new========================================================================= -->
+<div id="menModal" class="modal">
+    <!-- Modal content -->
+    <div class="modal-content">
+      <span class="close"></span>
+      <div id="JustIn">
+      <div>Just In</div>
+       <div id="just">
+          <img src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/wysiwyg/mm_images/men/whats_new/just_in/RecentlyAdded_3.jpg" alt="">
+          <img src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/wysiwyg/mm_images/men/whats_new/just_in/JustIn_3.jpg" alt="">
+       </div>
+      </div>
+      <div>
+          <div id="par">New Brands</div>
+          <div id="newBrand">
+              <div><img src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/wysiwyg/mm_images/men/whats_new/new_brands/Jack_Jones.jpg" alt=""></div>
+              <div><img src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/wysiwyg/mm_images/men/whats_new/new_brands/PayalSinghal.jpg" alt=""></div>
+              <div><img src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/wysiwyg/mm_images/men/whats_new/new_brands/MM_13_dec_New_Brands_Red_Chief.jpg" alt=""></div>
+              <div><img src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/wysiwyg/mm_images/men/whats_new/new_brands/MM_13_dec_New_Brands_Cantabil.jpg" alt=""></div>
+              <div><img src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/wysiwyg/mm_images/men/whats_new/new_brands/Outhouse.jpg" alt=""></div>
+              <div><img src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/wysiwyg/mm_images/men/whats_new/new_brands/Woolenwear.jpg" alt=""></div>
+          </div>
+      </div>
+      <div>
+          <div id="par">New Styles from</div>
+          <div id="newBrand">
+              <div><img src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/wysiwyg/mm_images/men/whats_new/new_styles_from/MM_13_Dec_New_Styles_From_Campus.jpg" alt=""></div>
+              <div><img src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/wysiwyg/mm_images/men/whats_new/new_styles_from/MM_13_Dec_New_Styles_From_Bewcoof.jpg" alt=""></div>
+              <div><img src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/wysiwyg/mm_images/men/whats_new/new_styles_from/Levis.jpg" alt=""></div>
+              <div><img src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/wysiwyg/mm_images/men/whats_new/new_styles_from/MM_13_Dec_New_Styles_From_Allen_Coper.jpg" alt=""></div>
+              <div><img src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/wysiwyg/mm_images/men/whats_new/new_styles_from/Puma.jpg" alt=""></div>
+              <div><img src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/wysiwyg/mm_images/men/whats_new/new_styles_from/RajaSahab.jpg" alt=""></div>
+          </div>
+      </div>
+      <div>
+          <div id="par">New Trends</div>
+          <div id="trend">
+              <div><img src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/wysiwyg/mm_images/men/whats_new/new_trends/DarkHuedSweaters.jpg" alt="">
+              <div>Dark Hued Sweaters</div></div>
+              <div><img src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/wysiwyg/mm_images/men/whats_new/new_trends/PufferJackets.jpg" alt="">
+              <div>Puffer Jackets</div></div>
+              <div><img src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/wysiwyg/mm_images/men/whats_new/new_trends/CoolHoodies.jpg" alt="">
+              <div>Cool hoodies</div></div>
+              <div><img src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/wysiwyg/mm_images/men/whats_new/new_trends/SolidSweatshirts.jpg" alt="">
+              <div>Solid Sweatshirts</div></div>
+              <div><img src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/wysiwyg/mm_images/men/whats_new/new_trends/LightLayers.jpg" alt="">
+              <div>Light Layers</div></div>
+              <div><img src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/wysiwyg/mm_images/men/whats_new/new_trends/SnugBoots.jpg" alt="">
+              <div>Snug Boots</div></div>
+          </div>
+      </div>
+    </div>
+  </div>
+<!-- ======================================================================kid what's new======================================================================= -->
+<div id="kidModal" class="modal">
+    <!-- Modal content -->
+    <div class="modal-content">
+      <span class="close"></span>
+      <div id="JustIn">
+      <div>Just In</div>
+       <div id="just">
+          <img src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/wysiwyg/mm_images/1_2.jpg?" alt="">
+          <img src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/wysiwyg/mm_images/justinnew.jpg" alt="">
+       </div>
+      </div>
+      <div>
+          <div id="par">New Brands</div>
+          <div id="newBrand">
+              <div><img src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/wysiwyg/mm_images/kids/whats_new/new_brands/Maharaja.jpg" alt=""></div>
+              <div><img src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/wysiwyg/mm_images/kids/whats_new/new_brands/Byb.jpg" alt=""></div>
+              <div><img src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/wysiwyg/mm_images/kids/whats_new/new_brands/Danaboi.jpg" alt=""></div>
+              <div><img src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/wysiwyg/mm_images/kids/whats_new/new_brands/EdAMamma.jpg" alt=""></div>
+              <div><img src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/wysiwyg/mm_images/kids/whats_new/new_brands/BellaModa.jpg" alt=""></div>
+              <div><img src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/wysiwyg/mm_images/kids/whats_new/new_brands/ElfinHouse.jpg" alt=""></div>
+          </div>
+      </div>
+      <div>
+          <div id="par">New Styles from</div>
+          <div id="newBrand">
+              <div><img src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/wysiwyg/mm_images/kids/whats_new/new_styles_from/M-andy.jpg" alt=""></div>
+              <div><img src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/wysiwyg/mm_images/kids/whats_new/new_styles_from/Budding_Bees.jpg" alt=""></div>
+              <div><img  src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/wysiwyg/mm_images/kids/whats_new/new_styles_from/Mothercare.jpg"></div>
+              <div><img  src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/wysiwyg/mm_images/kids/whats_new/new_styles_from/Disney.jpg"></div>
+              <div><img src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/wysiwyg/mm_images/kids/whats_new/new_styles_from/Masilo.jpg" alt=""></div>
+              <div><img src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/wysiwyg/mm_images/kids/whats_new/new_styles_from/UnderFourteenOnly.jpg" alt=""></div>
+          </div>
+      </div>
+      <div>
+          <div id="par">New Trends</div>
+          <div id="trend">
+              <div><img src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/wysiwyg/mm_images/kids/whats_new/new_trends/EverydayEssentials.jpg" alt="">
+              <div>Everyday Essentials</div></div>
+              <div><img src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/wysiwyg/mm_images/kids/whats_new/new_trends/Toys.jpg" alt="">
+              <div>Toy Store</div></div>
+              <div><img src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/wysiwyg/mm_images/kids/whats_new/new_trends/GraphicTshirts.jpg" alt="">
+              <div>Graphic Tree</div></div>
+              <div><img src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/wysiwyg/mm_images/kids/whats_new/new_trends/LittleBabyDiaries.jpg" alt="">
+              <div>Little Baby Diaries</div></div>
+              <div><img src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/wysiwyg/mm_images/kidsgifting.jpg" alt="">
+              <div>Gifting Guide</div></div>
+              <div><img src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/wysiwyg/mm_images/kids/whats_new/new_trends/BirthdayStore.jpg" alt="">
+              <div>The Birthday Store</div></div>
+          </div>
+      </div>
+    </div>
+  </div>
+<!-- =============================================================Home What's New=================================================================================== -->
+<div id="homeModal" class="modal">
+    <!-- Modal content -->
+    <div class="modal-content">
+      <span class="close"></span>
+      <div id="JustIn">
+      <div>Just In</div>
+       <div id="just">
+          <img src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/wysiwyg/mm_images/Justin.jpg" alt="">
+          <img src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/wysiwyg/mm_images/RecentlyAdded.jpg" alt="">
+       </div>
+      </div>
+      <div>
+          <div id="par">New Brands</div>
+          <div id="newBrand">
+              <div><img src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/wysiwyg/mm_images/JamieOliver.jpg" alt=""></div>
+              <div><img src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/wysiwyg/mm_images/Hario_1.jpg?rand=1637758981" alt=""></div>
+              <div><img src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/wysiwyg/mm_images/Balzano.jpg?rand=1637758981" alt=""></div>
+              <div><img src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/wysiwyg/mm_images/Freelance.jpg" alt=""></div>
+              <div><img src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/wysiwyg/mm_images/EarthHeart.jpg?" alt=""></div>
+              <div><img src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/wysiwyg/mm_images/Dartington.jpg?" alt=""></div>
+          </div>
+      </div>
+      <div>
+          <div id="par">New Styles from</div>
+          <div id="newBrand">
+              <div><img src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/wysiwyg/mm_images/Riedel.jpg" alt=""></div>
+              <div><img src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/wysiwyg/mm_images/HouseThis.jpg" alt=""></div>
+              <div><img src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/wysiwyg/mm_images/Wonderchef.jpg" alt=""></div>
+              <div><img src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/wysiwyg/mm_images/Freelance.jpg" alt=""></div>
+              <div><img src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/wysiwyg/mm_images/EarthHeart.jpg?" alt=""></div>
+              <div><img src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/wysiwyg/mm_images/Dartington.jpg?" alt=""></div>
+          </div>
+      </div>
+      <div>
+        <div id="par">New Trends</div>
+        <div id="trend">
+            <div><img src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/wysiwyg/mm_images/Riedel.jpg" alt=""></div>
+        </div>
+    </div>
+    </div>
+  </div>
+  <!-- =========================================================================tech what's new================================================================ -->
+  <div id="techModal" class="modal">
+    <!-- Modal content -->
+    <div class="modal-content">
+      <span class="close"></span>
+      <div id="JustIn">
+      <div>Just In</div>
+       <div id="just">
+          <img src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/wysiwyg/mm_images/JustIn.jpg" alt="">
+          <img src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/wysiwyg/mm_images/RecentlyAdded_1.jpg" alt="">
+       </div>
+      </div>
+      <div>
+          <div id="par">New Brands</div>
+          <div id="newBrand">
+              <div><img src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/wysiwyg/mm_images/Blaupunkt.jpg" alt=""></div>
+              <div><img src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/wysiwyg/mm_images/Jbl.jpg" alt=""></div>
+              <div><img src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/wysiwyg/mm_images/Garmin.jpg" alt=""></div>
+              <div><img src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/wysiwyg/mm_images/Stuffcool.jpg" alt=""></div>
+              <div><img src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/wysiwyg/mm_images/WD.jpg?rand=1637759010" alt=""></div>
+              <div><img src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/wysiwyg/mm_images/Urbanears.jpg" alt=""></div>
+          </div>
+      </div>
+      <div>
+          <div id="par">New Styles from</div>
+          <div id="newBrand">
+              <div><img src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/wysiwyg/mm_images/Ambrane.jpg" alt=""></div>
+              <div><img src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/wysiwyg/mm_images/Inbase.jpg" alt=""></div>
+              <div><img src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/wysiwyg/mm_images/Popsockets.jpg" alt="" ></div>
+              <div><img src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/wysiwyg/mm_images/Stuffcool.jpg" alt=""></div>
+              <div><img src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/wysiwyg/mm_images/WD.jpg?rand=1637759010" alt=""></div>
+              <div><img src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/wysiwyg/mm_images/Urbanears.jpg" alt=""></div>
+
+          </div>
+      </div>
+      <div>
+          <div id="par">New Trends</div>
+          <div id="trend">
+              <div><img src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/wysiwyg/mm_images/Popsockets.jpg" alt=""></div>
+          </div>
+      </div>
+    </div>
+  </div>
+<!-----------------------------------------------------------------More------------------------------------------------------------------- -->
+<div id="myMore" class="more">
+    <!-- Modal content -->
+    <div class="more-content">
+      <span class="close"></span>
+          <div><img src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/wysiwyg/mm_images/Luxe_1.jpg" alt=""></div>
+          <div><img src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/wysiwyg/mm_images/HG.jpg" alt=""></div>
+          <div><img src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/wysiwyg/mm_images/Style_1.jpg" alt=""></div>
+          <div><img src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/wysiwyg/mm_images/Offers.jpg" alt=""></div>
+    </div>
+  </div>
+
+
+  <!-- -------------------------------------------------------------------account (no sign)---------------------------------------------------------------- -->
+  <div id="acount" class="acount">
+    <div class="triangleup"></div>
+      <div id="acountContent">
+
+          <div id="Descr">Becoming a Nykaa Fashion member comes with easy order 
+               tracking, rewards, offers and more.
+          </div>
+          <div id="loginSign" onclick="wishFun()">Login/Signup Now ></div>
+          <div id="order" onclick="wishFun()">
+              <div>Orders</div>
+              <div><i class="fas fa-box-open"></i></div>
+          </div>
+          <div id="payment" onclick="wishFun()">
+              <div>Payment Methods</div>
+              <div><i class="fas fa-credit-card"></i></div>
+          </div>
+      </div>
+  </div>
+  <!------------------------------------------------------------------------account (sign in)--------------------------------------------------------------->
+
+  <div id="acountSign" class="acount">
+      <div class="triangleup"></div>
+      <div id="acountSignContent">
+          <div id="hiUser">Hi User!</div>
+          <div id="userValue"></div>
+          <div id="order">
+              <div>Orders</div>
+              <div><i class="fas fa-box-open"></i></div>
+          </div>
+          <div id="logOut" onclick="logOut()"><button>Logout</button></div>
+      </div>
+  </div>
+  
+  <!--======================================================================================Login/Signup Page============================================================ -->
+  <div id="loginOrSignup" class="loginOrSignup">
+      <div id="loginContent">
+          <div id="close">
+              <div id="cross"><i id="crossed" class="fas fa-times"></i></div>
+              <div> <img src="https://images-static.nykaa.com/nykdesignstudio-images/pub/media/mobileVerification_background_image.png" alt=""> </div>
+          </div>
+          <div id="log">Login</div>
+          <div id="loginArea">
+              <div id="signupArea">
+                  <div id="signupDes" >If you are new to nykaa Fashion, kindly signup to proceed</div>
+                  <div id="signMo" onclick="openSign()"><button >Signup using Email <i class="fas fa-arrow-right"></i></button></div>
+                  <div id="signTerm">By signing in, I agree to Term & Condition, and Privacy Policy</div>
+              </div>
+              <div id="hrAr">
+                  <div id="hr"></div>
+                  <div id="Or">Or</div>
+                  <div id="hr"></div>
+              </div>
+              <div id="logIn">
+                  <div id="logInDes">If you are already registered with us, then choose from below:</div>
+                  <div id="logInEm" onclick="openSignIn()"><button>Login using email <i class="fas fa-arrow-right"></i></button></div>
+              </div>
+          </div>
+      </div>
+  </div>
+
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~`````SignUp Page~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+<div id="logUp" class="logUp">
+    <div id="logUpContent">
+        <div id="backed">
+            <div id="back"><i class="fas fa-arrow-left"></i></div>
+            <div> <img src="https://images-static.nykaa.com/nykdesignstudio-images/pub/media/mobileVerification_background_image.png" alt=""> </div>
+        </div>
+        <!-- <div id="log">SignUp</div> -->
+         <div id="Flex">
+            <div id="perso">
+                <div id="user" class="us1">
+                    <div id="name" class="us2">User Name</div>
+                    <div class="us3"><input  id="userName" type="text" placeholder="eg: Nyka Fashion"></div>
+                </div>
+                <div id="mobile" class="us1">
+                    <div id="number" class="us2">Mobile Number</div>
+                    <div class="us3">+91<input id="mobileNumber"  type="Number" name="" id=""placeholder="XXXX-XXX-XXX"></div>
+                </div>
+            </div>
+            <div id="tech">
+               <div id="mail" class="us1">
+                   <div id="id" class="us2">Email</div>
+                   <div class="us3"><input id="mailId" type="email" placeholder="eg: nyka@gmail.com"></div>
+               </div>
+               <div id="pass" class="us1">
+                   <div id="word" class="us2">Password</div>
+                   <div class="us3"><input id="passWord"  type="password" placeholder="eg: nykaa@#$%1234"></div>
+               </div>
+           </div>
+         </div>
+        <div id="signUp"><button>SignUp</button></div>
+        <div id="gbsignIn">click here to go to SignIn page</div>
+    </div>
+</div>
+
+<!-- ======================================================================================signin=============================================================== -->
+
+<div id="Signin" class="Signin">
+    <div id="SigninContent">
+        <div id="Closer">
+            <div id="Crosser"><i class="fas fa-arrow-left"></i></div>
+            <div> <img src="https://images-static.nykaa.com/nykdesignstudio-images/pub/media/mobileVerification_background_image.png" alt=""> </div>
+        </div>
+        <div id="log">Sign in</div>
+         <div id="eFlex">
+            <div id="techno">
+               <div id="email" class="us4">
+                   <div id="eid" class="us5">Email</div>
+                   <div  class="us6"><input id="emailId" type="email" placeholder="eg: nyka@gmail.com"></div>
+               </div>
+               <div id="epass" class="us4">
+                   <div id="eword" class="us5">Password</div>
+                   <div class="us6"><input id="pasword" type="password" placeholder="eg: nykaa@#$%1234"></div>
+               </div>
+           </div>
+         </div>
+        <div id="signInn"><button>Sign in</button></div>
+        <p id="paragraph"></p>
+    </div>
+</div>
+<!-- =========================================================================empty cart =============================================================================== -->
+<div id="Cart" class="Cart">
+    <div id="cartContent">
+        <div id="larr" ><i onclick="goToShop()" class="fas fa-arrow-left"></i></div>
+        <div id="Bag">Bag</div>
+        <div id="empty"><img src="https://asset.nykaafashion.com/static/assets/empty-cart.37b1b704.png" alt=""></div>
+        <div id="emptyWar">Your shopping bag is empty!</div>
+        <div id="emptyDes" > Looks like you haven't added anything to your bag. Let's change that.</div>
+        <div id="bts" ><button onclick="goToShop()">Back to shopping</button></div>
+    </div>
+    </div>
+
+    <!--================================================================== added cart ================================================================================-->
+    <div id="cart" class="Cart">
+        <div id="cartContent">
+            <div id="larr" ><i onclick="goToShop()" class="fas fa-arrow-left"></i></div>
+            <div id="Bag">Bag</div>
+            <div id="cart1">
+                <div id="cartimg"></div>
+                <div id="cartProd">
+                    <div id="prodName"></div>
+                    <div id="cart2">
+                        <div id="prodColor"></div>
+                        <div id="prodSize"></div>
+                    </div>
+                    <div  id="prodQty">Quantity - 1</div>
+                    <div id="prodPrice"></div>
+                    <div id="delhi">Delivers by 31 Dec <i class="fas fa-truck"></i></div>
+                </div>
+            </div>
+            <div id="summa">Price Summary</div>
+            <div id="taxes">Price are inclusive of all taxes </div>
+            <div id="boxprice">
+                <div class="flex spbet">
+                    <div>Bag Total</div>
+                    <div id="prodPrice1"></div>
+                </div>
+                <div class="flex spbet">
+                    <div>Bag Discount</div>
+                    <div>-₹0</div>
+                </div>
+                <div class="flex spbet">
+                    <div>Sub Total</div>
+                    <div id="prodPrice2"></div>
+                </div>
+                <div class="flex spbet">
+                    <div>Shipping Charges</div>
+                    <div>-₹0</div>
+                </div>
+                <div class="flex prodprice3 spbet">
+                    <div>You Pay</div>
+                    <div id="prodPrice3"></div>
+                </div>
+            </div>
+            <div class="flex prodbox">
+                <div id="out"><i class="product fas fa-check"></i></div>
+                <div>Genuine Products</div>
+                <div id="out"><div><i class="product fas fa-user-shield"></i></div></div>
+                <div>Secure Payments</div>
+                <div id="out"><i class="product fas fa-undo-alt"></i></div>
+                <div>Easy Return</div>
+            </div>
+            <div>
+                <div id="prodPrice"></div>
+                <div id="bts" onclick="goToBuy()"><button >Proceed to Buy</button></div>
+            </div>
+        </div>
+        </div>
+        
+    <!-- =====================================================================================menu bar========================================================= -->
+    <!-- =====================================================================================menu bar========================================================= -->
+    <!-- =====================================================================================menu bar========================================================= -->
+    <!-- =====================================================================================menu bar========================================================= -->
+    <!-- =====================================================================================menu bar========================================================= -->
+
+
+     <!-- =====================================================================================Body part========================================================= -->
+    <!-- =====================================================================================Body part========================================================= -->
+    <!-- =====================================================================================Body part========================================================= -->
+    <!-- =====================================================================================Body part========================================================= -->
+    <!-- =====================================================================================Body part========================================================= -->
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++rohit+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+<hr>
+<div id="container">
+    <div id="image-pointer">
+         <img src="https://images-static.nykaa.com/uploads/tr:w-222,e-sharpen,/c4346537-e5a0-4940-ab39-30216bf52e2a.jpg" alt="">
+    </div>
+    <div onclick="jumpTomen()" id="image-pointer" class="dark">
+        <img src="https://images-static.nykaa.com/uploads/tr:w-222,e-sharpen,/0be19cd2-06d7-4186-b022-9ad65f8f6acf.jpg" alt="">
+    </div>
+    <div id="image-pointer" class="dark">
+     <img src="https://images-static.nykaa.com/uploads/tr:w-222,e-sharpen,/7a46561b-9e54-4f6d-bb79-8ff78c866951.jpg" alt="">
+     
+    </div>
+    <div id="image-pointer" class="dark">
+       <img src="https://images-static.nykaa.com/uploads/tr:w-240,e-sharpen,/adb10160-41eb-4c89-8cbf-9d08812384ea.jpg" alt="">
+    </div>
+    <div id="image-pointer" class="dark">
+        <img src="https://images-static.nykaa.com/uploads/tr:w-180,e-sharpen,/334f1777-1fd2-4af7-b125-ba44b81af990.jpg" alt="">
+    </div>
+   
+</div>
+<div id="static-image">
+    <img src="https://images-static.nykaa.com/uploads/tr:w-2922,/fb0416c4-6d28-4eef-9d22-f2a4c56f6864.jpg" alt="" width=100% ; height=350px> 
+</div>
+<div id="categories" >
+     <h4>CATEGORIES</h4>
+     <h1>Shop from our curated pics</h1>
+</div>
+<div id="curated">
+   <div id="image-pointer">
+       <img src="https://images-static.nykaa.com/uploads/tr:w-230,e-sharpen,/013ecb0d-785a-4be6-84f9-2e9f393b9d0e.jpg" alt="">
+   </div>
+   <div id="image-pointer">
+       <img src="https://images-static.nykaa.com/uploads/tr:w-230,e-sharpen,/ea73cd07-ff2c-4190-b3f0-7c807636502a.jpg" alt="">
+   </div>
+   <div id="image-pointer">
+       <img src="https://images-static.nykaa.com/uploads/tr:w-230,e-sharpen,/b94742c1-336c-4a7a-9852-4e2b5041c110.jpg" alt="">
+   </div>
+   <div id="image-pointer">
+       <img src="https://images-static.nykaa.com/uploads/tr:w-230,e-sharpen,/3a222e02-5cda-4897-9867-eef1f278ccf4.jpg" alt="">
+   </div>
+   <div>
+       <img src="https://images-static.nykaa.com/uploads/tr:w-230,e-sharpen,/7f137996-aaca-4cf4-b0cc-15551420621f.jpg" alt="">
+   </div>
+   <div id="image-pointer">
+       <img src="https://images-static.nykaa.com/uploads/tr:w-230,e-sharpen,/da9f15d2-99a5-459e-8435-57b0e54046b8.jpg" alt="">
+   </div>
+   <div id="image-pointer">
+       <img src="https://images-static.nykaa.com/uploads/tr:w-230,e-sharpen,/c2005b60-bf05-4d58-83c6-0df1ea3694f1.jpg" alt="">
+   </div>
+   <div id="image-pointer">
+       <img src="https://images-static.nykaa.com/uploads/tr:w-230,e-sharpen,/362ce97f-31a7-4b5f-9010-7a1e6b0f6409.jpg" alt="">
+   </div>
+   <div id="image-pointer">
+       <img src="https://images-static.nykaa.com/uploads/tr:w-230,e-sharpen,/11df1502-87fd-43f0-ac21-e873320f2fd5.jpg" alt="">
+   </div>
+</div>
+<div id="categories" >
+<h4>STAY STYLE FORWARD</h4>
+<h1>Refresh on your ward robe</h1>
+</div>
+<div id="static-image">
+<img src="https://images-static.nykaa.com/uploads/tr:w-2922,/1c6d5144-dc23-47c0-ae9a-c99b04c985b4.jpg" alt="" width=100% ; height=350px> 
+</div>
+<div id="categories" >
+<h4>IN THE SPOT LIGHT</h4>
+<h1>Covetable Find This Week</h1>
+</div>
+<div id="covetable">
+<div id="image-pointer">
+    <img src="https://images-static.nykaa.com/uploads/tr:w-390,e-sharpen,/02967ce7-47a2-40b0-895e-39861306ec3c.jpg" alt="">
+</div>
+<div id="image-pointer">
+    <img src="https://images-static.nykaa.com/uploads/tr:w-390,e-sharpen,/4090bb45-a179-4f7d-b2b2-393bf1f803d3.jpg" alt="">
+</div>
+<div id="image-pointer">
+    <img src="https://images-static.nykaa.com/uploads/tr:w-390,e-sharpen,/c7a4f2f7-80e1-43ad-859a-d755a9c8409d.jpg" alt="">
+</div>
+<div id="image-pointer">
+    <img src="https://images-static.nykaa.com/uploads/tr:w-390,e-sharpen,/61315a22-b520-4a0f-9cc2-278486777241.jpg" alt="">
+</div>
+<div id="image-pointer">
+    <img src="https://images-static.nykaa.com/uploads/tr:w-390,e-sharpen,/22e2f6c3-f756-45d4-a4e0-049f1299fa7e.jpg" alt="">
+</div>
+<div id="image-pointer">
+    <img src="https://images-static.nykaa.com/uploads/tr:w-390,e-sharpen,/666fbe69-377f-429a-8e64-769de14a6169.jpg" alt="">
+</div>
+</div>
+
+<div id="joint">
+<img src="https://images-static.nykaa.com/uploads/tr:w-2922,/859917ea-312d-4776-99de-c97c796e30e5.jpg" alt="" width=100% ; height=450px> 
+
+</div>
+<div class="slide-container">
+<span class="slider-span" id="slider-span1"></span>
+<span class="slider-span" id="slider-span2"></span>
+<span class="slider-span" id="slider-span3"></span>
+<span class="slider-span" id="slider-span4"></span>
+<span class="slider-span" id="slider-span5"></span>
+<span class="slider-span" id="slider-span6"></span>
+<span class="slider-span" id="slider-span7"></span>
+<span class="slider-span" id="slider-span8"></span> 
+
+<div class="image-slider">
+   
+    <div class="slide-div" id="slide-1">
+        <img src="https://images-static.nykaa.com/uploads/tr:w-282,e-sharpen,/f267e231-d519-4c23-ba29-0806e8ddaaeb.jpg" alt="" class="image" id="image1">
+        <a href="#slider-span1" class="button" id="button-1"></a>
+    </div>
+    <div class="slide-div" id="slide-2">
+        <img src="https://images-static.nykaa.com/uploads/tr:w-282,e-sharpen,/ca6a8d74-f708-472a-8692-23f43d9ed2e7.jpg" alt="" class="image" id="image2">
+        <a href="#slider-span2" class="button" id="button-2"></a>
+    </div>
+    <div class="slide-div" id="slide-3">
+        <img src="https://images-static.nykaa.com/uploads/tr:w-282,e-sharpen,/1fae4fd5-017f-4e1d-be18-38a6f92a9f2f.jpg" alt="" class="image" id="image3">
+        <a href="#slider-span3" class="button" id="button-3"></a>
+    </div>
+    <div class="slide-div" id="slide-4">
+        <img src="https://images-static.nykaa.com/uploads/tr:w-282,e-sharpen,/834ff32b-77d6-499b-938c-ade8614dd537.jpg" alt="" class="image" id="image4">
+        <a href="#slider-span4" class="button" id="button-4"></a>
+    </div>
+    <div class="slide-div" id="slide-5">
+        <img src="https://images-static.nykaa.com/uploads/tr:w-282,e-sharpen,/39a3fbb9-b61d-4f4b-97f4-fc254814b4dd.jpg" alt="" class="image" id="image5">
+        <a href="#slider-span5" class="button" id="button-5"></a>
+    </div>
+    <div class="slide-div" id="slide-6">
+        <img src="https://images-static.nykaa.com/uploads/tr:w-282,e-sharpen,/dd4c3110-706e-4150-ab24-30af10cf639b.jpg" alt="" class="image" id="image6">
+        <a href="#slider-span6" class="button" id="button-6"></a>
+    </div>
+    <div class="slide-div" id="slide-7">
+        <img src="https://images-static.nykaa.com/uploads/tr:w-282,e-sharpen,/d60300bc-ef33-4ac9-b4a1-a65cf0d78715.jpg" alt="" class="image" id="image7">
+        <a href="#slider-span7" class="button" id="button-7"></a>
+    </div>
+    <div class="slide-div" id="slide-8">
+        <img src="https://images-static.nykaa.com/uploads/tr:w-282,e-sharpen,/564dc0f9-ef53-47d7-be4c-24a521e47ffb.jpg" alt="" class="image" id="image8">
+        <a href="#slider-span8" class="button" id="button-8"></a>
+    </div>
+ 
+</div>
+</div>
+
+
+<div id="categories" >
+<h4>HOUSE OF NYKAA</h4>
+<h1>The Best From Our Very Own lables</h1>
+</div>
+
+<div id="house">
+<div id="image-pointer">
+    <img src="https://images-static.nykaa.com/uploads/tr:w-190,e-sharpen,/16947e80-34a9-48ad-aaaf-b04e347a4686.jpg" alt="">
+</div>
+<div id="image-pointer">
+    <img src="https://images-static.nykaa.com/uploads/tr:w-190,e-sharpen,/8c790da0-855e-4f31-80a2-41fcb0fc52f6.jpg" alt="">
+</div>
+<div id="image-pointer">
+    <img src="https://images-static.nykaa.com/uploads/tr:w-190,e-sharpen,/ecde1124-aa02-4c1c-a9c5-6d9a4a1f865d.jpg" alt="">
+</div>
+<div id="image-pointer">
+    <img src="https://images-static.nykaa.com/uploads/tr:w-190,e-sharpen,/efa873ce-f3c0-47b4-9c30-6437add2dd43.jpg" alt="">
+</div>
+<div id="image-pointer">
+    <img src="https://images-static.nykaa.com/uploads/tr:w-190,e-sharpen,/406f078c-78ce-40fc-928b-65b2c8befe1e.jpg" alt="">
+</div>
+<div id="image-pointer">
+    <img src="https://images-static.nykaa.com/uploads/tr:w-190,e-sharpen,/fd8bd47f-1f6d-4b80-bda2-a42097b93c78.jpg" alt="">
+</div>
+</div>
+<div id="categories" >
+<h4>NEW On NYKAA</h4>
+<h1>New Style , Just Landed</h1>
+</div>
+
+<div id="newstyle">
+<div id="image-pointer">
+<img src="https://images-static.nykaa.com/uploads/tr:w-282,e-sharpen,/539dbe8c-c07f-4d34-92fc-c0af1de59111.jpg" alt="">
+</div>
+<div id="image-pointer">
+    <img src="https://images-static.nykaa.com/uploads/tr:w-282,e-sharpen,/50acae77-d44c-42da-86f8-b15ad8a8625d.jpg" alt="">
+</div>
+<div id="image-pointer">
+    <img src="https://images-static.nykaa.com/uploads/tr:w-282,e-sharpen,/dcbe650d-f30b-4e0c-8961-e958a112fd3b.jpg" alt="">
+</div>
+<div id="image-pointer">
+    <img src="https://images-static.nykaa.com/uploads/tr:w-282,e-sharpen,/1335ee7b-0812-4b91-95ef-c992f1408884.jpg" alt="">
+</div>
+</div>
+
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++navneet++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<div id="watchbox">
+    <div class="watchimg"><img src="https://images-static.nykaa.com/uploads/tr:w-1190,…sharpen,/b6f8c767-09f5-43fa-b789-a8a20ef94038.jpg" alt=""></div>
+    <div class="watchimg"><img class="imghover" id="hWatch" src=" https://images-static.nykaa.com/uploads/tr:w-1190,e-sharpen,/58102519-2c83-4626-b326-75fb0bf6a887.jpg" alt=""></div>
+</div>
+<div id="watch">
+    <div class="Hover">
+       <img src="https://images-static.nykaa.com/uploads/tr:w-282,e-sharpen,/84b77e40-4197-45ee-aac9-1583dc12bcec.jpg" alt="">
+       <div>Daniel Willington</div>
+       <div>Starting at ₹9,500 </div>
+    </div>
+    <div class="Hover">
+        <img src="	https://images-static.nykaa.com/uploads/tr:w-282,e-sharpen,/e8681aeb-1a1a-45b3-9a05-73dc3630d90c.jpg" alt="">
+        <div>Fossil</div>
+        <div>Up to 30% off</div>
+    </div>
+    <div class="Hover">
+        <img src="	https://images-static.nykaa.com/uploads/tr:w-282,e-sharpen,/a7088029-aaed-4251-a374-706f00015aea.jpg" alt="">
+        <div>Daniel Klein</div>
+        <div>Up to 60% off</div>
+    </div>
+    <div class="Hover">
+        <img src="https://images-static.nykaa.com/uploads/tr:w-282,e-sharpen,/2d352270-8de4-4b41-b564-1afd23565a99.jpg" alt="">
+        <div>Fastrack</div>
+        <div>Up to 40% off</div>
+    </div>
+</div>
+<div id="iconic">
+    <div>
+        <img src="https://images-static.nykaa.com/uploads/tr:w-1190,e-sharpen,/2d940b2f-fea3-4513-b955-fb5e5e8f84a7.jpg" alt="">
+    </div>
+</div>
+<div id="styleToShop">
+    <div class="Hover">
+       <img src="https://images-static.nykaa.com/uploads/tr:w-240,e-sharpen,/ab9e87ab-f575-4ed2-b3c1-1887553ee0eb.jpg" alt="">
+    </div>
+    <div class="Hover">
+        <img src="https://images-static.nykaa.com/uploads/tr:w-240,e-sharpen,/c3277530-a292-445a-a507-436f4c3d37c7.jpg" alt="">
+    </div>
+    <div class="Hover">
+        <img src="https://images-static.nykaa.com/uploads/tr:w-240,e-sharpen,/fe28251b-7a0d-48db-80ee-e72e15be49a4.jpg" alt="">
+    </div>
+    <div class="Hover">
+        <img src="https://images-static.nykaa.com/uploads/tr:w-240,e-sharpen,/50d1ecf2-cead-47cd-976f-60a396324903.jpg" alt="">
+    </div>
+    <div class="Hover">
+        <img src="https://images-static.nykaa.com/uploads/tr:w-240,e-sharpen,/8c3898ed-0ea8-486f-b2c1-9bb22bfc2b2c.jpg" alt="">
+    </div>
+</div>
+<div>
+    <div id="footWear">
+        <img src="https://images-static.nykaa.com/uploads/tr:w-1190,e-sharpen,/344fd011-aded-424c-948b-1ad30f49d42e.jpg" alt="">
+    </div>
+</div>
+<div id="stepInStyle">
+    <div class="Hover">
+        <img src="https://images-static.nykaa.com/uploads/tr:w-282,e-sharpen,/f44c4d30-b790-458e-9300-e918462c0f4a.jpg" alt="">
+        <div>Metro</div>
+        <div>Up to 50% off</div>
+    </div>
+    <div class="Hover">
+        <img src="https://images-static.nykaa.com/uploads/tr:w-282,e-sharpen,/fc700e4a-af83-4467-92c1-295ad2d42440.jpg" alt="">
+        <div>Mochi</div>
+        <div>Up to 50% off</div>
+    </div>
+    <div class="Hover">
+        <img src="https://images-static.nykaa.com/uploads/tr:w-282,e-sharpen,/86488bfe-ef2f-477f-900a-ab563d9d6aac.jpg" alt="">
+        <div>The Cai Store</div>
+        <div>Up to 50% off</div>
+    </div>
+    <div class="Hover">
+        <img src="https://images-static.nykaa.com/uploads/tr:w-282,e-sharpen,/ab9a3798-2a9c-4fb9-8038-55a4d8e9359b.jpg" alt="">
+        <div>Truffle Collection</div>
+        <div>Up to 65% off</div>
+    </div>
+</div>
+<div >
+    <div id="handBag">
+        <img src="https://images-static.nykaa.com/uploads/tr:w-1190,e-sharpen,/dc9e1fdb-a75c-4e89-b931-b812b6bf1983.jpg" alt="">
+    </div>
+</div>
+<div id="armCandy">
+    <div class="Hover">
+        <img src="https://images-static.nykaa.com/uploads/tr:w-282,e-sharpen,/edf82f5e-1bdf-4cb4-a670-48f7520c70b4.jpg" alt="">
+        <div>Odette</div>
+        <div>Up to 60% off</div>
+    </div>
+    <div class="Hover">
+        <img src="https://images-static.nykaa.com/uploads/tr:w-282,e-sharpen,/db2050ab-36b2-4cc9-b61a-9010ea3c3734.jpg" alt="">
+        <div>Lino Perros</div>
+        <div>Up to 75% off</div>
+    </div>
+    <div class="Hover">
+        <img src="https://images-static.nykaa.com/uploads/tr:w-282,e-sharpen,/13567cfd-e3df-4594-8f8e-8d5ac593197d.jpg" alt="">
+        <div>lavie</div>
+        <div>Up to 60% off</div>
+    </div>
+    <div class="Hover">
+        <img src="https://images-static.nykaa.com/uploads/tr:w-282,e-sharpen,/21da47f9-9182-42e9-83d4-cb901b7672c9.jpg" alt="">
+        <div>Guess</div>
+        <div>Starting at ₹3,500</div>
+    </div>
+</div>
+<div id="smartBuy">
+    <div>
+        <img src="https://images-static.nykaa.com/uploads/tr:w-1190,e-sharpen,/d0bccd18-af18-4247-878f-d0767ad800fc.jpg" alt="">
+    </div>
+    <div id="upgrade">
+        <img class="imghover" src="https://images-static.nykaa.com/uploads/tr:w-1190,e-sharpen,/b0e231a6-4f69-431f-928e-c79f1c26c4cc.jpg" alt="">
+    </div>
+</div>
+<div id="coolTech">
+    <div class="Hover">
+        <img src="https://images-static.nykaa.com/uploads/tr:w-282,e-sharpen,/0fc6b2a7-d1fd-4f1e-b347-173153dfe7da.jpg" alt="">
+        <div>Boat</div>
+        <div>Up to 60% off</div>
+    </div>
+    <div class="Hover">
+        <img src="https://images-static.nykaa.com/uploads/tr:w-282,e-sharpen,/bfb8766e-45e6-4f4f-8a14-1e76cf9d69b3.jpg" alt="">
+        <div>Boult Audio</div>
+        <div>Up to 70% off</div>
+    </div>
+    <div class="Hover">
+        <img src="https://images-static.nykaa.com/uploads/tr:w-282,e-sharpen,/4dad6b6a-0871-4d5c-9289-3ec138304d84.jpg" alt="">
+        <div>Fujifilm</div>
+        <div>Up to 20% off</div>
+    </div>
+    <div class="Hover">
+        <img src="https://images-static.nykaa.com/uploads/tr:w-282,e-sharpen,/f885154f-4e4f-40dc-a823-cda705a3d39d.jpg" alt="">
+        <div>JBL</div>
+        <div>UP to 40% off</div>
+    </div>
+</div>
+<div id="linger">
+    <div>
+        <img src="https://images-static.nykaa.com/uploads/tr:w-1190,e-sharpen,/6b3021c0-e047-4d2b-9a77-e25fcf39cf0f.jpg" alt="">
+    </div>
+    <div>
+        <img  class="imghover" src="https://images-static.nykaa.com/uploads/tr:w-1190,e-sharpen,/3f38d498-8ce9-4dcf-a635-2fd402f0d672.jpg" alt="">
+    </div>
+</div>
+<div id="feelGood">
+    <div class="Hover">
+        <img src="https://images-static.nykaa.com/uploads/tr:w-282,e-sharpen,/46ae2e6e-5c61-477b-9ba6-bf62670c7e37.jpg" alt="">
+        <div>Enamor</div>
+        <div>Starting at ₹350</div>
+    </div>
+    <div class="Hover">
+        <img src="https://images-static.nykaa.com/uploads/tr:w-282,e-sharpen,/034f4f12-ba19-4e7f-88a7-49e5b2c7c374.jpg" alt="">
+        <div>Clovia</div>
+        <div>Up to 70% off</div>
+    </div>
+    <div class="Hover">
+        <img src="https://images-static.nykaa.com/uploads/tr:w-282,e-sharpen,/4f68b840-bda1-4479-8341-39fd568cc89a.jpg" alt="">
+        <div>VH Intimates</div>
+        <div>Starting at ₹299</div>
+    </div>
+    <div class="Hover">
+        <img src="https://images-static.nykaa.com/uploads/tr:w-282,e-sharpen,/db654428-1b31-4821-aaeb-df4486a84c6f.jpg" alt="">
+        <div>Ziame</div>
+        <div>Up to 60% off</div>
+    </div>
+</div>
+<div id="seasonFav">
+    <div>
+        <img src="https://images-static.nykaa.com/uploads/tr:w-1190,e-sharpen,/9285aac5-ee0f-42c3-bc21-0ac13b1b240d.jpg" alt="">
+    </div>
+    <div id="keepUp">
+        <div class="Hover">
+            <img src="https://images-static.nykaa.com/uploads/tr:w-384,e-sharpen,/97d947cf-e6ab-4a4f-9558-754ac38351ae.jpg" alt="">
+        </div>
+        <div class="Hover">
+            <img src="https://images-static.nykaa.com/uploads/tr:w-384,e-sharpen,/6e353d0d-2d88-48fe-9f19-a1871dd44af6.jpg" alt="">
+        </div>
+        <div class="Hover">
+           <img src="https://images-static.nykaa.com/uploads/tr:w-384,e-sharpen,/bc5c5e33-fe4c-4148-aa98-055226553a29.jpg" alt="">
+        </div>
+    </div>
+</div>
+<div id="mostWant">
+    <div>
+        <img src="https://images-static.nykaa.com/uploads/tr:w-1190,e-sharpen,/8c8b509f-8036-4f4f-a59c-d405b61acae8.jpg" alt="">
+    </div>
+</div>
+<div id="brandsYou">
+    <div class="Hover">
+        <img src="https://images-static.nykaa.com/uploads/tr:w-190,e-sharpen,/c14e989a-dab4-4cde-b43a-09c35a0c42ac.jpg" alt="">
+    </div>
+    <div class="Hover">
+        <img src="https://images-static.nykaa.com/uploads/tr:w-190,e-sharpen,/4fd693c6-55b9-4119-ba26-5ccec3bddebc.jpg" alt="">
+    </div>
+    <div class="Hover">
+        <img src="https://images-static.nykaa.com/uploads/tr:w-190,e-sharpen,/aa06b2e7-1d07-41c2-9f34-d77e09fda94b.jpg" alt="">
+    </div>
+    <div class="Hover">
+        <img src="https://images-static.nykaa.com/uploads/tr:w-190,e-sharpen,/e5ffc50c-a8d8-449c-866f-479ce379fe85.jpg" alt="">
+    </div>
+    <div class="Hover">
+        <img src="https://images-static.nykaa.com/uploads/tr:w-190,e-sharpen,/5839b155-69dc-4652-9367-141d174fad20.jpg" alt="">
+    </div>
+    <div class="Hover">
+        <img src="https://images-static.nykaa.com/uploads/tr:w-190,e-sharpen,/3b71b566-8995-41b4-af4e-057e5e09d595.jpg" alt="">
+    </div>
+</div>
+
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++Anurag+++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<section id="section"> 
+    <!---------------------------- fine jwellery------------------------------> 
+<div  class="textcenter">
+   <h4>FINE  JWELLERY</h4>
+   <h2>Shine  On  You</h2>
+
+</div>
+<div id="staticimg">
+   <img id="static" src="https://images-static.nykaa.com/uploads/tr:w-3038,/92909fa6-408f-4d89-80ef-de26a44c478e.gif" alt="">
+</div>
+<!--- ---------------malabar part  ---------------------     -->
+<div id="malabargold">     
+
+   <div class="malabar">
+       <div><img src="https://images-static.nykaa.com/uploads/tr:w-282,e-sharpen,/edb9eda5-3e07-4ffd-a859-e4df985821f1.jpg"  alt="" height="90%" width="100%" ></div>
+       <p class="malabartext" >Up to 15% off </p>
+   </div>
+   <div class="malabar">
+       <div><img src="https://images-static.nykaa.com/uploads/tr:w-282,e-sharpen,/0794b6bc-3757-45ee-b8b0-8533ce86f7b1.jpg"  alt="" width="100%"  height="90%" ></div>
+       <p class="malabartext" >Up to 30% off </p>
+   </div>
+   <div class="malabar">
+       <div><img src="https://images-static.nykaa.com/uploads/tr:w-282,e-sharpen,/f969139e-011c-4ee3-aa49-feb87338a89b.jpg"  alt="" width="100%"  height="90%" ></div>
+       <p class="malabartext" >Up to 30% off </p>
+   </div>
+   <div class="malabar">
+       <div><img src="https://images-static.nykaa.com/uploads/tr:w-282,e-sharpen,/ff9ffb9f-95a6-4847-8df4-ec859b0fc0f3.jpg"  alt="" width="100%"  height="90%" ></div>
+       <p class="malabartext" >Up to 30% off </p>
+   </div>
+</div>
+      <!----------------------- sports section ------------------------------->       
+
+<div>
+   <div class="textcenter">
+       <h4>The Sports store</h4>
+       <h2>Stay Fit,look cool</h2>
+   </div>
+
+</div>
+
+<div id="sportsimg">
+   <div >
+       <img src="https://images-static.nykaa.com/uploads/tr:w-282,e-sharpen,/e319ab2f-6a95-4385-8fdc-2d085f87c8e2.gif" height="100%" width="100%" alt="">
+   </div>
+   <div>
+      <img src="https://images-static.nykaa.com/uploads/tr:w-282,e-sharpen,/21a7a1ab-5365-43ee-818a-c9a9f502253e.jpg"height="100%" width="100%" alt="">
+   </div>
+   <div>
+       <img src="https://images-static.nykaa.com/uploads/tr:w-282,e-sharpen,/e782a120-0ecf-4fa9-a16e-785c1258e2f1.jpg" alt="" height="100%" width="100%">
+   </div>
+   <div>
+       <img src="https://images-static.nykaa.com/uploads/tr:w-282,e-sharpen,/e0911318-693f-4a3e-8577-7be19f110980.jpg" alt="" height="100%" width="100%">
+   </div>
+</div>
+
+
+<!------------------------ brand section -------------------------------- -->
+<div>
+   <div class="textcenter">
+       <h4>BRAND YOU LOVE</h4>
+       <h2>Can't get enough of</h2>
+   </div>
+</div>
+
+<div id="brand">
+    <div>
+        <img src="https://images-static.nykaa.com/uploads/tr:w-230,e-sharpen,/36efa607-ce35-467c-80cb-789bf1013fac.jpg" alt="" height="100%" width="100%">
+    </div>
+    <div>
+       <img src="https://images-static.nykaa.com/uploads/tr:w-230,e-sharpen,/301a7382-5795-43fc-bd15-a6d0fd2483f9.jpg" alt="" height="100%" width="100%">
+   </div>
+   <div>
+       <img src="https://images-static.nykaa.com/uploads/tr:w-230,e-sharpen,/235e6898-a7bd-4eed-ab00-446d69deae7c.jpg" alt="" height="100%" width="100%">
+   </div>
+   <div>
+       <img src="https://images-static.nykaa.com/uploads/tr:w-230,e-sharpen,/ea77aadd-2e44-4327-a99c-11850234ecac.jpg" alt=""height="100%" width="100%">
+   </div>
+   <div>
+       <img src="https://images-static.nykaa.com/uploads/tr:w-230,e-sharpen,/b4d71ccd-e6d9-45b2-a769-ea1cad7aaa6f.jpg" alt=""height="100%" width="100%">     
+   </div>
+   <div>
+       <img src="https://images-static.nykaa.com/uploads/tr:w-230,e-sharpen,/7dd98104-39b1-42b4-b8ed-a8dc626c0473.jpg" alt=""height="100%" width="100%">
+   </div>
+   <div>
+       <img src="https://images-static.nykaa.com/uploads/tr:w-230,e-sharpen,/e3b5a79d-b027-4ed8-bd37-6eb4a27f3876.jpg" alt=""height="100%" width="100%">
+   </div>
+   <div>
+       <img src="https://images-static.nykaa.com/uploads/tr:w-230,e-sharpen,/a951c8c6-bb3a-40a3-9e7b-1943ad440142.jpg" alt=""height="100%" width="100%">
+   </div>
+   <div>
+       <img src="https://images-static.nykaa.com/uploads/tr:w-230,e-sharpen,/3afd1906-8806-4ff4-aa66-945e539788cf.jpg" alt=""height="100%" width="100%">
+   </div>
+  
+</div>
+
+<!-- --------------------Editor picks ------------------------ -->
+<div>
+   <div class="textcenter">
+       <h4>EDITORS PICKS</h4>
+       <h2>Defining pieces choosen by our experts </h2>
+   </div>
+</div>
+
+<div id="editorsimg">
+   <div>
+       <img src="https://images-static.nykaa.com/uploads/tr:w-384,e-sharpen,/c290181d-e82f-4b71-bda3-48bc846fb914.jpg" alt="" height="100%" width="100%">
+   </div>
+   <div>
+       <img src="https://images-static.nykaa.com/uploads/tr:w-384,e-sharpen,/1fc464a2-3821-4f3e-b082-b44615ccd617.jpg" alt="" height="100%" width="100%">
+   </div>
+   <div>
+       <img src="https://images-static.nykaa.com/uploads/tr:w-384,e-sharpen,/835185b7-0c8a-4b73-afef-1c50081fe64d.jpg" alt="" height="100%" width="100%">
+   </div>
+</div>
+
+<!--------------------------------- hidden gems  ------------------------------------------/ -->
+
+   <div class="textcenter">
+       <h4>HIDDEN GEMS </h4>
+       <h2>Niche labels from across India  </h2>
+   </div>
+
+   <div id="hiddengemsimg">
+       <div>
+           <img src="https://images-static.nykaa.com/uploads/tr:w-384,e-sharpen,/d54d756d-9765-4402-9c16-ffc2b375d108.jpg" alt="" height="100%" width="100%">
+       </div>
+       <div>
+           <img src="https://images-static.nykaa.com/uploads/tr:w-384,e-sharpen,/56f1d3c0-f6fc-4b90-8f66-bfcb68008fe8.jpg" alt="" height="100%" width="100%">
+       </div>
+       <div>
+           <img src="https://images-static.nykaa.com/uploads/tr:w-384,e-sharpen,/75947813-e74d-4804-9858-263ece181418.jpg" alt="" height="100%" width="100%">
+       </div>
+   </div>
+<!-------------------------- nyka bus ------------------------------------>
+<div id="nykabus">
+    <img src="https://images-static.nykaa.com/uploads/tr:w-1190,e-sharpen,/6a757d91-6acf-4285-ac4c-c15997699fe3.gif" alt="" height="100%" width="100%">
+</div>
+
+<!-- -----------------------jwellery -------------------------- -->
+
+<div class="textcenter">
+   <h4>JWELLERY </h4>
+   <h2> What we are crushing on </h2>
+</div>
+
+<div id="jwelleryimg">
+   <img src="https://images-static.nykaa.com/uploads/tr:w-1190,e-sharpen,/90bd688c-37cd-48f6-9afc-5b7d5bd369fa.jpg" alt="" height="100%" width="100%">
+</div>
+
+<!-------------------------- priyassi---------------------------------- -->
+<div id="karakat">     
+
+<div class="karakatimg">
+   <div><img src="https://images-static.nykaa.com/uploads/tr:w-282,e-sharpen,/48983648-0aca-4642-89d0-3a06d5c73401.jpg"  alt="" height="90%" width="100%" ></div>
+   <h2 class="karakattext">Priyassi</h2>
+   <p class="karakattext malabartext" >Up to 15% off </p>
+</div>
+<div class="karakatimg">
+   <div><img src="https://images-static.nykaa.com/uploads/tr:w-282,e-sharpen,/af8b6794-fd88-498d-a0c1-344774b4ca9f.jpg"  alt="" width="100%"  height="90%" ></div>
+   <h2 class="karakattext">Peora</h2>
+   <p class="karakattext malabartext" >Up to 30% off </p>
+</div>
+<div class="karakatimg">
+   <div><img src="https://images-static.nykaa.com/uploads/tr:w-282,e-sharpen,/f44bb928-9798-417b-b463-8a6064ab4a33.jpg"  alt="" width="100%"  height="90%" ></div>
+   <h2 class="karakattext">Panash</h2>
+   <p class="karakattext malabartext" >Up to 30% off </p>
+</div>
+<div class="karakatimg">
+   <div><img src="https://images-static.nykaa.com/uploads/tr:w-282,e-sharpen,/92ef4cb9-9347-4ec1-bfc1-a1fa87841c8d.jpg"  alt="" width="100%"  height="90%" ></div>
+   <h2 class="karakattext">karakat</h2>
+   <p class="karakattext malabartext" >Up to 30% off </p>
+</div>
+
+</div>
+
+</section>
+
+
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++om+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<div class="finishing">
+    <h4>FININSHING TOUCH</h4>
+    <h2>don't leave your home without these</h2>
+</div>
+    <div class="main_sliding">
+        <div>
+            <div class="s1">
+                <img src="https://images-static.nykaa.com/uploads/tr:w-282,e-sharpen,/dc9ba7e3-1a40-44cf-83ca-7346d8da5d5e.jpg" alt="numi.jpg">
+            </div>
+            <div class="s2"><p>Numi</p></div>
+            <div class="s3"><p>Exiciting Offers!</p></div>
+        </div>
+        <div>
+            <div class="s1">
+                <img src="https://images-static.nykaa.com/uploads/tr:w-266.4,e-sharpen,/6e029ade-12aa-402e-ab0f-4f79cd9b06b6.jpg">
+            </div>
+            <div class="s2"><p>Ray-Ban</p></div>
+            <div class="s3"><p>Exiciting Offers!</p></div>
+        </div>
+
+        <div>
+            <div class="s1">
+                <img src="https://images-static.nykaa.com/uploads/tr:w-266.4,e-sharpen,/5abc7fab-c9f5-4302-a7f9-01cdaa4e1274.jpg">
+            </div>
+            <div class="s2"><p>Vogue</p></div>
+            <div class="s3"><p>Exiciting Offers!</p></div>
+        </div>
+        <div>
+            <div class="s1">
+                <img src="https://images-static.nykaa.com/uploads/tr:w-282,e-sharpen,/901431bd-11b0-4875-b761-e6ecf6fbaa47.jpg">
+            </div>
+            <div class="s2"><p>Enrico</p></div>
+            <div class="s3"><p>Starting at 1000</p></div>
+        </div>
+
+        <div>
+            <div class="s1">
+                <img src="https://images-static.nykaa.com/uploads/tr:w-282,e-sharpen,/ac2473e9-1f5e-4f98-9974-09b23446cc54.jpg">
+            </div>
+            <div class="s2"><p>Royal Sons</p></div>
+            <div class="s3"><p>Starting at 500</p></div>
+        </div>
+
+        <div>
+            <div class="s1">
+                <img src="https://images-static.nykaa.com/uploads/tr:w-282,e-sharpen,/f24da56a-9f4b-4f52-9b1c-17eae339be75.jpg">
+            </div>
+            <div class="s2"><p>Victori's Secret</p></div>
+            <div class="s3"><p>Starting at 4,000</p></div>
+        </div>
+
+        <div>
+            <div class="s1">
+                <img src="https://images-static.nykaa.com/uploads/tr:w-282,e-sharpen,/55540705-d177-49f6-a17e-35f20794d60b.jpg">
+            </div>
+            <div class="s2"><p>Guess</p></div>
+            <div class="s3"><p>Starting at 8,000</p></div>
+        </div>
+
+        <div>
+            <div class="s1">
+                <img src="https://images-static.nykaa.com/uploads/tr:w-282,e-sharpen,/28547440-ac85-4902-8e9b-7ba4b55cd74a.jpg">
+            </div>
+            <div class="s2"><p>Xpres</p></div>
+            <div class="s3"><p>Starting from 2200</p></div>
+        </div>
+
+        <div>
+            <div class="s1">
+                <img src="https://images-static.nykaa.com/uploads/tr:w-282,e-sharpen,/caa33435-e127-4a01-857b-63d87b80e457.jpg">
+            </div>
+            <div class="s2"><p>View All Sunglasses</p></div>
+            <div class="s3"><p>Shop Now</p></div>
+        </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span> 
+        <span class="dot" onclick="currentSlide(2)"></span> 
+        <span class="dot" onclick="currentSlide(3)"></span> 
+  </div>
+  
+<div class="fininshing">
+    <h4>STYLE FILES</h4>
+  <h2>Top reads from our blogs</h2>
+</div>
+<div class="main_sliding">
+    <div>
+        <div class="s1">
+            <img src="https://images-static.nykaa.com/uploads/tr:w-531.2,e-sharpen,/e0f77005-637c-405a-87a7-d881e13ee936.jpg">
+        </div>
+    </div>
+
+    <div>
+        <div class="s2">
+            <img src="https://images-static.nykaa.com/uploads/tr:w-384,e-sharpen,/8b0bcaeb-9aa8-4c4d-8c68-53a87a8443ce.jpg">
+        </div>
+        
+    </div>
+
+    <div>
+        <div class="s3">
+            <img src="https://images-static.nykaa.com/uploads/tr:w-384,e-sharpen,/b900195a-d121-41ee-9589-ded6b9d2c9fd.jpg">
+        </div>
+    </div>
+</div>
+
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++Sahil++++++++++++++++++++++++++++++++++++++++++++++ -->
+ <!-- ========================================================================================foot part=================================================== -->
+    <!-- ========================================================================================foot part=================================================== -->
+    <!-- ========================================================================================foot part=================================================== -->
+    <!-- ========================================================================================foot part=================================================== -->
+    <!-- ========================================================================================foot part=================================================== -->
+
+    <div class="main">
+        <div class="box1">
+           <div class="subboxi1">
+             <div class="underbox1"><h3>DOWNLOAD OUR APP</h1></div>
+             <div class="underbox1">
+                   <div class="lit1">
+                       <img id="im6"
+                       src="https://adn-static1.nykaa.com/nykdesignstudio-images/tr:h-66,/pub/media/wysiwyg/homepagemiddle/googlePlay.png" alt="">
+                    
+                   </div>
+                 <div class="lit1">
+                     <img id="im6"
+                     src="https://adn-static1.nykaa.com/nykdesignstudio-images/tr:h-66,/pub/media/wysiwyg/homepagemiddle/appleStore.png" alt="">
+                     
+                 </div>
+             </div>
+        </div>
+           <div class="subboxi2"><h3>SUBSCRIBE TO NEWSLETTER</h3>
+                               <input class="input" type="text" placeholder="enter your email">
+                              <button id="button5">submit</button>
+        </div>
+           <div class="subboxi3"><h3>FOR QUERIES</h3>
+                                 <h4>18002663333 | support@nykaafashion.com
+                                    (Monday to Saturday, 10AM - 7PM)</h4>
+        </div>
+        </div>
+       <div id="back1">
+        <div class="box2">
+            <div class="box21">
+                    <div>WHO ARE WE</div>
+                    <div>About Us</div>
+                    <div>Careers</div>
+                    <div>Press</div>
+            </div>
+            <div class="box22">
+                       <div>HELP</div>
+                    <div>Shipping & Return Policy</div>
+                    <div>Help Center</div>
+                    <div>Terms & Conditions</div>
+            </div>
+            <div class="box23">
+                <div></div>
+                    <div>Privacy Policy</div>
+                    <div>Privacy Policy for EU Residents</div>
+                    <div>Responsible Disclosure</div>
+            </div>
+            <div class="box24">
+                <div>QUICKLINKS</div>
+                    <div>Offers</div>
+                    <div>Sitemap</div>
+            </div>
+            <div class="box25">
+                <div>FOLLOW US</div>
+                <div>
+                    <div class="box251">
+                        <img id="img5"
+                        src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/wysiwyg/homepagemiddle/icons-instagram-footer.svg" alt="">
+                        <img id ="img5"
+                        src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/wysiwyg/homepagemiddle/icons-facebook-footer.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+       </div>
+       <div class="back">
+        <div class="box3">
+            <div class="rd1">
+                <h5 onclick="jumpToWomen()">WOMEN</h5>
+                  <div>Indianwear</div>
+                   <div>Westernwear</div>
+                   <div>Bags</div>
+                   <div> Footwear</div>
+                   <div>Lingerie</div>
+                   <div>Jewellery</div> 
+                   <div> Accessories</div>
+                   <div>Watches</div> 
+                   <div>Sportswear</div> 
+            </div>
+            <div class="rd2">
+                 <h5>MEN</h5>
+                <div>Topwear</div>
+                 <div>Bottomwear</div>
+                 <div>Footwear</div>
+                 <div>Personal Accessories</div>
+                 <div>Ethnic Wear</div>
+                 <div>Innerwear</div> 
+                 <div> Watches</div>
+                 <div> Sportswear</div> 
+                 <div>Bags and Backpacks</div> 
+            </div>
+            <div class="rd3">
+                <h5 onclick="jumpToKid()">KIDS</h5>
+                <div>Westernwear</div>
+                 <div>Indianwear</div>
+                 <div>Footwear</div>
+                 <div>Accessories </div>
+                 <div>Toys and Games</div>
+                 <div>Sportswear</div> 
+                 <div> Feeding</div>
+                 <div> Home</div> 
+                 <div>Innerwear</div> 
+            </div>
+            <div class="rd4">
+                <h5>LUXE</h5>
+                <div>Separates</div>
+                 <div>Sarees</div>
+                 <div>Dresses</div>
+                 <div>Kurta Sets </div>
+                 <div>Lehengas</div>
+                 <div>Jewellery</div> 
+                 <div> Bags</div>
+                 <div> Masks</div> 
+            </div>
+            <div class="rd5">
+                <h5>TOP BRANDS</h5>
+                <div>Aachho</div>
+                 <div>Forever New</div>
+                 <div>Biba</div>
+                 <div>Reebok</div>
+                 <div>Adidas</div>
+                 <div>Lavanya the Label</div> 
+                 <div> Forever 21</div>
+                 <div> Gap</div> 
+                 <div>Puma</div> 
+            </div>
+            <div class="rd6">
+                <h5>HOUSE OF NYKAA</h5>
+                <div>20 Dresses by Nykaa Fashion</div>
+                 <div>Mondano by Nykaa Fashion</div>
+                 <div>RSVP by Nykaa Fashion</div>
+                 <div>Likha by Nykaa Fashion</div>
+                 <div>Nykd by Nykaa</div>
+                 <div>Pipa Bella</div> 
+            </div>
+    </div>
+       </div>
+        <div class="box4">
+              <div class="red">
+                  <div>© 2019 - 2021 Nykaa Fashion Pvt. Ltd. All Rights Reserved</div>
+              </div>
+        </div>
+    </div>
+    <!-- ========================================================================================foot part end=================================================== -->
+    <!-- ========================================================================================foot part end=================================================== -->
+    <!-- ========================================================================================foot part end=================================================== -->
+    <!-- ========================================================================================foot part end=================================================== -->
+    <!-- ========================================================================================foot part end=================================================== -->
+
+
+     <!-- =====================================================================================Body part end========================================================= -->
+    <!-- =====================================================================================Body part end========================================================= -->
+    <!-- =====================================================================================Body part end========================================================= -->
+    <!-- =====================================================================================Body part end========================================================= -->
+    <!-- =====================================================================================Body part end========================================================= -->
+</body>
+</html>
+<script src="mainpage.js"></script>
+
